@@ -12,7 +12,7 @@ $usuario = [
 	'nome' => '',
 	'idade'=> 57,
 ];
-
+ $status = false;
 
 try {
 
@@ -20,6 +20,8 @@ $status = validarUsuario($usuario);
 	
 } catch (Exception $e) {
 	echo $e->getMessage();
+}finally{
+	echo "status da operação " . (int)$status;
 	die();
 }
 
