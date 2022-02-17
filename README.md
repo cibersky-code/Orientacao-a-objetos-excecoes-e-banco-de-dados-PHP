@@ -1,4 +1,4 @@
-# Orienta-o-a-objetos-exce-es-e-banco-de-dados-PHP
+# Orientação a objetos e exceções e banco de dados em PHP
 
 
 
