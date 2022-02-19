@@ -5,7 +5,7 @@
 */
 
 
-declare(string_types=1);
+declare(strict_types=1);
 
 $pdo = require 'connect.php';
 $sql = 'upadate produtos set descrição = ? where id = ?';
